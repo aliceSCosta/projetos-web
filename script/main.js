@@ -3,7 +3,7 @@ let minhaImagem = document.querySelector('img');
 minhaImagem.onclick = function(){
     let meuSrc = minhaImagem.getAttribute('src');
     if(meuSrc === 'img/1-hope-deitado-removebg-preview.png'){
-        minhaImagem.setAttribute('src', 'img/2-hope-com-brilho-removebg-preview.png');
+        minhaImagem.setAttribute('src', 'img/3-hope-pulando-removebg-preview.png');
     }
     else{
         minhaImagem.setAttribute('src', 'img/1-hope-deitado-removebg-preview.png');
